@@ -1,0 +1,53 @@
+h1,h2,h3,h4,h5{margin: 0; padding: 0;}
+html,body{
+	margin: 0;
+	padding : 0;	
+	max-width: 100%;
+	height: 100%;
+	background: url("https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: center;
+	
+}
+.fake{
+	display: flex;
+	justify-content: center;
+	align-content:center;
+	height: 100%;
+	width: 100%;
+}
+.fakeLeft,.fakeRight{
+	width:100px;
+	background: #fff;
+}
+.fakeLeft{
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+.fakeRight{
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+.wrap{
+	width: 800px;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.title{
+	font-family: 'Lobster', cursive;
+	padding: 20px;
+	font-size: 30px;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.login{
+	width: 400px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
